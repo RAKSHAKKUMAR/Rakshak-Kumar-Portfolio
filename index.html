@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rakshak Kumar - Front-End Developer & UI/UX Designer crafting elegant digital experiences"
+    />
+    <title>Rakshak Kumar - Frontend Developer & UI/UX Designer</title>
+
+    <!-- Fonts: Editorial minimalism with character -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="nav-container">
+        <a href="#home" class="logo" aria-label="Home">RK</a>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="theme-toggle-container">
+            <button
+              class="theme-toggle"
+              aria-label="Toggle dark mode"
+              id="themeToggle"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="sun-icon"
+                  d="M10 3V1M10 19V17M17 10H19M1 10H3M15.657 4.343L17.071 2.929M2.929 17.071L4.343 15.657M15.657 15.657L17.071 17.071M2.929 2.929L4.343 4.343M14 10C14 12.2091 12.2091 14 10 14C7.79086 14 6 12.2091 6 10C6 7.79086 7.79086 6 10 6C12.2091 6 14 7.79086 14 10Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  class="moon-icon"
+                  style="display: none"
+                  d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <span class="hero-greeting text-mono">Hello, I'm</span>
+        <h1 class="hero-name">Rakshak Kumar</h1>
+        <div class="hero-typing-wrapper">
+          <span class="hero-typing-text" id="typingText"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+        <p class="hero-subtitle">
+          A front-end developer and UI/UX designer who transforms complex
+          problems into intuitive, beautiful interfaces. I believe great design
+          is invisible—it just works.
+        </p>
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content fade-in">
+            <h2>Design thinking,<br />engineering precision</h2>
+            <p class="about-text">
+              I started as a designer, fell in love with code, and discovered my
+              superpower lies at the intersection. While designers hand off
+              static mockups and developers implement features, I speak both
+              languages fluently—translating creative vision into
+              production-ready code.
+            </p>
+            <p class="about-text">
+              My approach is simple: understand the user, challenge assumptions,
+              and build with intention. Every animation serves a purpose. Every
+              interaction feels natural. Every line of code respects performance
+              and accessibility.
+            </p>
+            <div class="about-highlight">
+              <p class="about-highlight-text">
+                <strong>Current focus:</strong> Building design systems that
+                scale, creating delightful micro-interactions, and exploring the
+                future of web animations with GSAP and Framer Motion.
+              </p>
+            </div>
+          </div>
+          <div class="about-image fade-in"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section-sm">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Skills & Expertise</h2>
+          <p class="section-subtitle">
+            A blend of design intuition and technical execution
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category fade-in">
+            <h3>
+              <span class="skill-icon">⚡</span>
+              Frontend Development
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-item">React</li>
+              <li class="skill-item">Next.js</li>
+              <li class="skill-item">TypeScript</li>
+              <li class="skill-item">Vue.js</li>
+              <li class="skill-item">Tailwind CSS</li>
+              <li class="skill-item">SCSS/SASS</li>
+              <li class="skill-item">Framer Motion</li>
+              <li class="skill-item">GSAP</li>
+              <li class="skill-item">WebGL/Three.js</li>
+            </ul>
+          </div>
+          <div class="skill-category fade-in">
+            <h3>
+              <span class="skill-icon">🎨</span>
+              UI/UX Design
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-item">Figma</li>
+              <li class="skill-item">Adobe XD</li>
+              <li class="skill-item">Design Systems</li>
+              <li class="skill-item">Prototyping</li>
+              <li class="skill-item">User Research</li>
+              <li class="skill-item">Wireframing</li>
+              <li class="skill-item">Information Architecture</li>
+              <li class="skill-item">Usability Testing</li>
+            </ul>
+          </div>
+          <div class="skill-category fade-in">
+            <h3>
+              <span class="skill-icon">🛠</span>
+              Tools & Workflow
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-item">Git & GitHub</li>
+              <li class="skill-item">Webpack/Vite</li>
+              <li class="skill-item">Jest/Vitest</li>
+              <li class="skill-item">Storybook</li>
+              <li class="skill-item">Vercel/Netlify</li>
+              <li class="skill-item">CI/CD</li>
+              <li class="skill-item">Performance Optimization</li>
+              <li class="skill-item">A11y Auditing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="section">
+      <div class="container-wide">
+        <div class="section-header fade-in">
+          <h2>Selected Work</h2>
+          <p class="section-subtitle">
+            Case studies showcasing problem-solving through design and code
+          </p>
+        </div>
+        <div class="projects-grid">
+          <a
+            href="https://rakshakkumar.github.io/GEN5ROM/"
+            target="_blank"
+            rel="noopener"
+            class="project-link"
+          >
+            <article class="project-card fade-in">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <span class="project-overlay-text">View Case Study →</span>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">GEN5ROM — Immersive Artist Portfolio</h3>
+                <p class="project-description">
+                  Crafted a visually immersive portfolio experience for a contemporary artist, 
+    combining bold typography, fluid interactions, and cinematic layout composition. 
+    Optimized for performance and responsiveness while maintaining artistic integrity 
+    across devices.
+                </p>
+                <ul class="project-tags">
+                  <li class="project-tag">HTML</li>
+                  <li class="project-tag">CSS</li>
+                  <li class="project-tag">JavaScript</li>
+                  <li class="project-tag">Responsive Design</li>
+                  <li class="project-tag">UI/UX</li>
+                </ul>
+              </div>
+            </article>
+          </a>
+
+          <article class="project-card fade-in">
+            <div class="project-image">
+              <div class="project-overlay">
+                <span class="project-overlay-text">View Case Study →</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Bloom Wellness App</h3>
+              <p class="project-description">
+                Mobile-first meditation app with custom animations and haptic
+                feedback. Featured in Apple's "Apps We Love" with 50K+ downloads
+                in first month.
+              </p>
+              <ul class="project-tags">
+                <li class="project-tag">Next.js</li>
+                <li class="project-tag">Framer Motion</li>
+                <li class="project-tag">PWA</li>
+                <li class="project-tag">Prototyping</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="project-image">
+              <div class="project-overlay">
+                <span class="project-overlay-text">View Case Study →</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Zenith Design System</h3>
+              <p class="project-description">
+                Built a comprehensive design system from scratch for a SaaS
+                company, enabling 5 product teams to ship consistent UI 3x
+                faster.
+              </p>
+              <ul class="project-tags">
+                <li class="project-tag">React</li>
+                <li class="project-tag">Storybook</li>
+                <li class="project-tag">TypeScript</li>
+                <li class="project-tag">Documentation</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- UX Process Section -->
+    <section id="process" class="section-sm">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>My UX Process</h2>
+          <p class="section-subtitle">
+            How I transform ideas into exceptional user experiences
+          </p>
+        </div>
+        <div class="process-timeline">
+          <div class="process-step fade-in">
+            <div class="process-number">1</div>
+            <h3>Research & Discovery</h3>
+            <p>
+              Deep dive into user needs, business goals, and competitive
+              landscape. Conduct interviews, analyze data, and identify pain
+              points.
+            </p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-number">2</div>
+            <h3>Design & Ideation</h3>
+            <p>
+              Sketch solutions, create wireframes, and iterate on prototypes.
+              Test assumptions early and often with stakeholders and users.
+            </p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-number">3</div>
+            <h3>Build & Refine</h3>
+            <p>
+              Translate designs into clean, performant code. Focus on
+              accessibility, responsive behavior, and delightful
+              micro-interactions.
+            </p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-number">4</div>
+            <h3>Test & Iterate</h3>
+            <p>
+              Launch with real users, gather feedback, and continuously improve.
+              Measure success through analytics and qualitative insights.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-sm">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Kind Words</h2>
+        </div>
+        <div class="testimonials-container fade-in">
+          <div class="testimonial">
+            <p class="testimonial-text">
+              "Rakshak has this rare ability to think like a designer and code
+              like a senior engineer. The component library they built became
+              the foundation for our entire product suite. Truly exceptional
+              work."
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">H</div>
+              <div class="testimonial-info">
+                <h4>Harnarayan</h4>
+                <p class="testimonial-role">Creative Visual Artist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Let's Work Together</h2>
+          <p class="section-subtitle">
+            Have a project in mind? I'd love to hear about it
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info fade-in">
+            <h3>Get in touch</h3>
+            <p>
+              Whether you're looking for a developer, designer, or both—I'm
+              currently available for select projects and full-time
+              opportunities.
+            </p>
+            <div class="contact-methods">
+              <a href="mailto:rakshakkumar200@gmail.com" class="contact-method">
+                <div class="contact-icon">✉</div>
+                <div>
+                  <div class="contact-method-label">Email</div>
+                  <div class="contact-method-value">
+                    rakshakkumar200@gmail.com
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://github.com/RAKSHAKKUMAR"
+                class="contact-method"
+                target="_blank"
+                rel="noopener"
+              >
+                <div class="contact-icon">⚙</div>
+                <div>
+                  <div class="contact-method-label">GitHub</div>
+                  <div class="contact-method-value">@RAKSHAKKUMAR</div>
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rakshak-kumar-6a879720a/"
+                class="contact-method"
+                target="_blank"
+                rel="noopener"
+              >
+                <div class="contact-icon">🔗</div>
+                <div>
+                  <div class="contact-method-label">LinkedIn</div>
+                  <div class="contact-method-value">/in/rakshak-kumar</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form fade-in" id="contactForm">
+            <div class="form-success" id="formSuccess">
+              ✓ Message sent successfully! I'll get back to you soon.
+            </div>
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                class="form-input"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                class="form-input"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tell me about your project..."
+                class="form-textarea"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full-width">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="copyright">
+            © 2026 Rakshak Kumar. Designed & developed with care.
+          </div>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#work" class="footer-link">Work</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
