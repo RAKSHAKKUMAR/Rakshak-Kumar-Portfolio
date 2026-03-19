@@ -191,6 +191,7 @@ p {
     margin: 0 auto;
 }
 
+
 .logo {
     font-family: var(--font-display);
     font-size: 1.25rem;
@@ -198,6 +199,26 @@ p {
     color: var(--color-text-primary);
     text-decoration: none;
     letter-spacing: -0.01em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.logo-badge {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* background: linear-gradient(135deg, #a855f7, #ec4899); */
+}
+
+.logo-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  display: block;
 }
 
 .nav-links {
