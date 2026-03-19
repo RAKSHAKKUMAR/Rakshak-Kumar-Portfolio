@@ -284,7 +284,9 @@ p {
     align-items: center;
     position: relative;
     overflow: hidden;
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    padding-top: 125px;
+
 }
 
 .hero-bg {
@@ -314,7 +316,7 @@ p {
 .hero-greeting {
     display: inline-block;
     margin-bottom: var(--space-sm);
-    font-size: 1rem;
+    font-size: 1.0rem;
     font-weight: 500;
     color: var(--color-accent);
     text-transform: uppercase;
